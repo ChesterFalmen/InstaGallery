@@ -1,0 +1,19 @@
+@mixin circle($color) {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 34px;
+    height: 34px;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: $color;
+}
+@mixin font-style($weight, $size, $height, $color){
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    color: $color;
+}
+  
